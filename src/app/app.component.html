@@ -1,0 +1,27 @@
+<div class="a">
+{{a}}
+<input type="number" id="name" placeholder="Your name">
+</div>
+<button onclick="submit">
+<input type="button"   value="submit" name="submits">
+</button>
+
+<div *ngfor = 'let d of b'>
+     
+    <ul>
+    <li> {{d.c}} </li>
+
+    </ul>
+    </div>
+    
+
+
+    <div *ngFor = 'let lst of divit'>
+      <ul>
+
+         <li>{{lst.ID}} 
+            <img [src] = "lst.url">
+         </li>      </ul>
+         </div>
+
+

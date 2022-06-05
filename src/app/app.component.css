@@ -1,0 +1,16 @@
+.a {
+    font-size: large;
+    color: brown;
+}
+.b {
+    font-size: x-small;
+    color: red;
+}
+
+.c {
+    width: 90%;
+    display: block;
+    margin-left: 12px;
+    background: none;
+    background-color:red;
+}
